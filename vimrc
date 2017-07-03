@@ -11,8 +11,13 @@ if $COLORTERM == 'gnome-terminal'
   set t_Co=256
 endif
 
-" Other
+" Indentation
 filetype plugin on
+filetype indent on
+set list
+set listchars=tab:‣\ ,trail:·,precedes:«,extends:»,eol:¬
+
+" Other
 set number
 set cursorline
 set mouse=a
