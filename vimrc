@@ -22,16 +22,6 @@ set number
 set cursorline
 set mouse=a
 
-" Highlight
-let g:go_highlight_functions=1
-let g:go_highlight_methods=1
-let g:go_highlight_structs=1
-let g:go_highlight_operators=1
-let g:go_highlight_build_constraints=1
-
-" CtrlP
-let g:ctrlp_map='<c-p>'
-
 " Mappings
 nmap <Leader>h <C-W>s
 nmap <Leader>v <C-W>v
