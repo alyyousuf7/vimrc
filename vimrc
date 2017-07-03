@@ -18,6 +18,7 @@ set list
 set listchars=tab:‣\ ,trail:·,precedes:«,extends:»,eol:¬
 
 " Other
+set updatetime=250
 set number
 set cursorline
 set mouse=a
