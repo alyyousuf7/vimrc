@@ -15,6 +15,7 @@ endif
 filetype plugin on
 set number
 set cursorline
+set mouse=a
 
 " Highlight
 let g:go_highlight_functions=1
