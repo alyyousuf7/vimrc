@@ -16,3 +16,6 @@
 [submodule "bundle/vim-airline-themes"]
 	path = bundle/vim-airline-themes
 	url = git@github.com:vim-airline/vim-airline-themes
+[submodule "bundle/neocomplete"]
+	path = bundle/neocomplete
+	url = git@github.com:Shougo/neocomplete.vim.git
