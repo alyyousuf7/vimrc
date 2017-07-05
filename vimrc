@@ -15,7 +15,8 @@ endif
 filetype plugin on
 filetype indent on
 set list
-set listchars=tab:‣\ ,trail:·,precedes:«,extends:»,eol:¬
+set listchars=tab:│\ ,eol:\ ,precedes:«,extends:»
+hi SpecialKey ctermfg=239 ctermbg=8
 
 " Other
 set updatetime=250
