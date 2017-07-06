@@ -15,20 +15,19 @@ call plug#end()
 " Colorscheme
 syntax enable
 set background=dark
-colorscheme solarized
+let g:solarized_termcolors=16
+let g:solarized_termtrans = 1  " This fixes wrong background color
+colorscheme solarized          " Make sure to match terminal colorscheme aswell
 
-" Enable full color support
-if $COLORTERM == 'gnome-terminal'
-  let g:solarized_termtrans=1
-  set t_Co=256
-endif
+" Colorscheme corrections
+hi SpecialKey ctermfg=2 ctermbg=none    " Indentation
+hi MatchParen ctermbg=none              " Parentheses
 
 " Indentation
 filetype plugin on
 filetype indent on
 set list
-set listchars=tab:│\ ,eol:\ ,precedes:«,extends:»
-hi SpecialKey ctermfg=239 ctermbg=8
+set listchars=tab:│\ ,precedes:«,extends:»
 
 " Other
 set updatetime=250    " Change update time so git-gutter does feel unresponsive
