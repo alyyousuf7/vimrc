@@ -12,6 +12,9 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'Yggdroot/indentLine'
 call plug#end()
 
+" Allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
 " Colorscheme
 syntax enable
 set background=dark
